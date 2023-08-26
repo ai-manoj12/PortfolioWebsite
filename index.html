@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" /> <!--link to style sheet-->
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class = "navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">Aishwarya Manoj</a>
+            <div class="navbar__toggle" id="mobile-menu"> <!--Targetted by menu -->
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#experiences" class="navbar__links" id="experiences-page">Experiences</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!--Intro Section-->
+    <div class="intro" id="home">
+        <div class="intro__container">
+            <h1 class="intro__heading">Hey, I'm <span>Aishwarya!</span></h1>
+            <p class="intro__description">I'm a <span>Computer Engineering </span>student with a passion for <span>Software Development.</span></p>
+           <!-- <button class="main__btn"><a href="#">Explore</a></button> -->
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"></div>
+            </div>
+            <div class="main__content">
+                <h1>About Me</h1>
+                <h2>Aishwarya Manoj BS CompE at UIUC</h2>
+                <p>I'm a university student from Cupertino, California. Growing up in the SF Bay Area, I developed a love for all things tech.</p>
+                <p>I am a current Sophomore looking for internships in Software development to gain</p>
+                <p>technical skills and learn more about project creation.</p>
+                <button class="main__btn"><a href="#">Call</a></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script> <!--getting the javascript to work-->
+</body>
+</html>
